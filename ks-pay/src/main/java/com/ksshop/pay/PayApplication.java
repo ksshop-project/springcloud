@@ -1,4 +1,4 @@
-package org.ksshop.pay;
+package com.ksshop.pay;
 
 import org.springframework.boot.Banner;
 import org.springframework.boot.SpringApplication;

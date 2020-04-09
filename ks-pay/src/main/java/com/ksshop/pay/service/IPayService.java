@@ -1,6 +1,6 @@
-package org.ksshop.pay.service;
+package com.ksshop.pay.service;
 
-import org.ksshop.pay.entities.Pay;
+import com.ksshop.pay.entities.Pay;
 
 import com.baomidou.mybatisplus.extension.service.IService;
 

@@ -1,4 +1,7 @@
-package org.ksshop.pay.entities;
+package com.ksshop.pay.entities;
+
+import com.baomidou.mybatisplus.annotation.IdType;
+import com.baomidou.mybatisplus.annotation.TableId;
 
 import lombok.Data;
 import lombok.experimental.Accessors;
@@ -15,8 +18,9 @@ import lombok.experimental.Accessors;
 @Accessors(chain = true)
 public class Pay {
 
+	@TableId(type = IdType.AUTO)
 	private Long id;
 
-	private String msg;
+	private String serial;
 
 }

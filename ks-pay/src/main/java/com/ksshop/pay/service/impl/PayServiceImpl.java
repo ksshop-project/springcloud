@@ -1,8 +1,8 @@
-package org.ksshop.pay.service.impl;
+package com.ksshop.pay.service.impl;
 
-import org.ksshop.pay.entities.Pay;
-import org.ksshop.pay.mapper.PayMapper;
-import org.ksshop.pay.service.IPayService;
+import com.ksshop.pay.entities.Pay;
+import com.ksshop.pay.mapper.PayMapper;
+import com.ksshop.pay.service.IPayService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;
 

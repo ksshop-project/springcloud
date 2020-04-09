@@ -1,4 +1,4 @@
-package org.ksshop.pay;
+package com.ksshop.pay;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -19,7 +19,7 @@ import com.baomidou.mybatisplus.generator.engine.FreemarkerTemplateEngine;
 public class Generator {
 
 	public static String url = "jdbc:mysql://47.110.38.195:3306/spring-cloud-pay?useUnicode=true&characterEncoding-utr-8&useSSL=false";
-	public static String basePackage = "org.ksshop.pay";
+	public static String basePackage = "com.ksshop.pay";
 	// 模块名
 	public static String Module = "";
 	// 表名，多个英文逗号分割

@@ -13,4 +13,4 @@ spring:
 
 mybatis:
   mapper-locations: classpath:mapper/*.xml
-  type-aliases-package: org.ksshop.pay.entities       #所有Entity别名类所在包
+  type-aliases-package: com.ksshop.pay.entities       #所有Entity别名类所在包
